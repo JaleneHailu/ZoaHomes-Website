@@ -1,0 +1,11 @@
+@media (max-width: 1200px) {
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerIcons{
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

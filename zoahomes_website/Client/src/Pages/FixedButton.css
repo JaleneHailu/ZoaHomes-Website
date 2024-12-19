@@ -1,0 +1,116 @@
+.fixed-button {
+  position: fixed; /* Fixes the button to the page */
+  bottom: 35px;     /* 20px from the bottom of the page */
+  right: 20px;      /* 20px from the right of the page */
+  padding: 15px 20px;
+  background-color: #25d366; 
+  color: white;       /* Text color */
+  border: none;
+  border-radius: 50px; /* Rounded corners */
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 9999; /* Make sure it's above other elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+  font-size: 20px;
+  align-items: center;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.whatsupIcon{
+  font-size: 30px;
+  margin-right: 10px;
+
+}
+
+.fixed-button:hover {
+  background-color: #128c7e; /* Darker shade on hover */
+}
+
+.modalOverlay {
+  position: fixed;
+  margin-left: 50% !important;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  z-index: 10000; /* Make sure it's above everything else */
+}
+
+.modal-content {
+  background-color: #fff;
+  /* padding: 20px; */
+  border-radius: 10px;
+  text-align: center;
+  width: 20%;
+  height: fit-content;
+  margin-bottom: 100px;
+  margin-right: 20px;
+}
+
+.modal-content h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.modal-content p {
+  font-size: 1em;
+  color: #666;
+}
+
+.start-chat-btn {
+  background-color: #121312;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.start-chat-btn:hover {
+  background-color: #25d366;
+}
+
+.start-chat-btn .whatsupIcon {
+  margin-right: 10px;
+}
+
+.close-modal{
+  width: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 2px 4px rgba(116, 114, 114, 0.2);
+}
+
+@media (max-width: 1200px) {
+  .fixed-button{
+  margin-right: 0px;
+  width: 190px !important;
+  font-size: 15px;
+  height: 35px;
+  }
+  .whatsupIcon {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .modal-content {
+    width: 70%;
+  }
+}

@@ -1,0 +1,29 @@
+@media (max-width: 740px) {
+  .contact h1{
+    font-size: 40px !important;
+    margin-bottom: 0px !important;
+  }
+  .contactWrapper{
+    flex-direction: column;
+  }
+  .map{
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  form{
+    border: none !important;
+    margin-top: 20px !important;
+  }
+  button{
+    width: 100% 
+  }
+  
+}
+input,
+  textarea
+  {
+    border: solid lightgrey 1px !important;
+  }
+.name-field{
+  text-align:start !important
+}

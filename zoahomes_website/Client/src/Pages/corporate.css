@@ -1,0 +1,77 @@
+@media (max-width: 740px) {
+  .corporate-title{
+    font-size: 20px !important;
+  }
+  .corporateStory{
+    display: block !important;
+    margin-top: 40px !important;
+  }
+  .missionImg{
+    display: none;
+  }
+  .corporateStory img{
+    margin-top: 40px;
+  }
+  .footerWrapper{
+    padding: 10px !important;
+    height: auto;
+  }
+  .ourVision{
+    margin-left: 0 !important;
+  }
+  .footerContents{
+    width: 100% !important;
+    /* background-color: brown !important */
+  }
+  .footerContent{
+    width: 80% !important;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .footerIcons{
+    width: "40%"
+  }
+  .section{
+    padding: 30px !important;
+  }
+  .buyhero{
+    height: fit-content;
+  }
+  hr{
+    margin-bottom: 10px !important;
+  }
+  .none{
+    display: none;
+  }
+  video{
+    max-width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .content{
+    text-align: start !important;
+  }
+  .content p{
+    margin-top: 20px;
+  }
+  .corporateWrapper{
+    padding: 30px !important ;
+    border-radius: 0px !important;
+  }
+  .corporateWrapper h1{
+    font-size: 40px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .storyContent{
+    margin-top: 20px !important;
+  }
+}
+
+hr{
+  margin-bottom: 50px;
+}
+video{
+  margin-left: 20px;
+}
+

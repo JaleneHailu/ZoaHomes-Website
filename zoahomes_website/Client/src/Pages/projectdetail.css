@@ -1,0 +1,32 @@
+@media (max-width: 740px) {
+  .projectdetail{
+  flex-direction: column !important;
+  margin-top: 40px !important;
+  margin-bottom: 0 !important;
+}
+.typology{
+  margin-top: 20px;
+  margin-left: 0 !important;
+  padding: 0 !important;
+}
+.nospace{
+  justify-content: left !important;
+}
+.floorplan{
+  margin-left:20px !important;
+
+}
+.bedroom{
+  margin-left:20px !important;
+}
+.info h1{
+  font-size: 40px !important;
+}
+.infobutton{
+  margin-left: 0 !important;
+  width: 70% !important;
+}
+a{
+  margin-left: 0 !important;
+}
+}
